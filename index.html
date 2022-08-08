@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- STYLESHEET -->
-        <link rel="stylesheet" href="style.css" />
+        <!-- vvvvvv ionic CDN links -->
+        <script
+            type="module"
+            src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+        ></script>
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-            crossorigin="anonymous"
+            href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
         />
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- ^^^^^^^ ionic CDN links -->
 
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>A New Hope</title>
+        <title>Talking Satnav</title>
     </head>
     <body>
-        <h1>All Over Rovers</h1>
-
+        <main>
+            <ion-app>
+                <ion-header>
+                    <ion-toolbar color="success">
+                        <ion-title style="font-size: 1.3rem"
+                            >Talking Satnav</ion-title
+                        >
+                    </ion-toolbar>
+                </ion-header>
+                <!-- HEAD ABOVE, BODY BELOW -->
+                <ion-content>
+                    <ion-grid>
+                        <ion-row>
+                            <ion-card>
+                                <ion-card-header>
+                                    <ion-card-title> TEST1 </ion-card-title>
+                                </ion-card-header>
+                                <ion-button id="test-btn">
+                                    Press Here
+                                </ion-button>
+                            </ion-card>
+                        </ion-row>
+                    </ion-grid>
+                </ion-content>
+            </ion-app>
+        </main>
         <script src="script.js"></script>
     </body>
 </html>
