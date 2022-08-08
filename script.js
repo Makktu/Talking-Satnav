@@ -12,7 +12,10 @@ const userName = 'Dee';
 const testBtn = document.getElementById('test-btn');
 
 testBtn.addEventListener('click', () => {
+    // speakingComputer(
+    //     `What, the fuck, are you doing? What is that cunt doing? ${userName}, I recommend pausing to consider.`
+    // );
     speakingComputer(
-        `What, the fuck, are you doing? What is that cunt doing? ${userName}, I recommend pausing to consider.`
+        `If I am saying too much, or swearing too much, you can change the settings, for fuck's sake.`
     );
 });
