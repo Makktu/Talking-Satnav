@@ -12,10 +12,10 @@ const userName = 'Dee';
 const testBtn = document.getElementById('test-btn');
 
 testBtn.addEventListener('click', () => {
-    // speakingComputer(
-    //     `What, the fuck, are you doing? What is that cunt doing? ${userName}, I recommend pausing to consider.`
-    // );
     speakingComputer(
-        `Please state your destination. You can say - "reset" - at any time, to start over.`
+        `What, the fuck, are you doing? What is that cunt doing? ${userName}, I recommend pausing to consider.`
     );
+    // speakingComputer(
+    //     `Please state your destination. You can say - "reset" - at any time, to start over.`
+    // );
 });
