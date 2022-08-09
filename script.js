@@ -15,7 +15,5 @@ testBtn.addEventListener('click', () => {
     // speakingComputer(
     //     `What, the fuck, are you doing? What is that cunt doing? ${userName}, I recommend pausing to consider.`
     // );
-    speakingComputer(
-        `If I am saying too much, or swearing too much, you can change the settings, for fuck's sake.`
-    );
+    speakingComputer(`John Mack Vay is a fucking cunt.`);
 });
