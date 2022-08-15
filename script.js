@@ -13,7 +13,8 @@ const testBtn = document.getElementById('test-btn');
 
 testBtn.addEventListener('click', () => {
     speakingComputer(
-        `Hello ${userName}. Please state your destination. You can tell me to "start again" whenever you like.`
+        `Hello. Please state your destination. You can tell me to "start again" whenever you like.`
+        // `John Mack Vay, is a fucking cunt.`
     );
     // speakingComputer(
     //     `Please state your destination. You can say - "reset" - at any time, to start over.`
