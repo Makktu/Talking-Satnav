@@ -13,7 +13,7 @@ const testBtn = document.getElementById('test-btn');
 
 testBtn.addEventListener('click', () => {
     speakingComputer(
-        `Hello. Please state your destination. You can tell me to "start again" whenever you like.`
+        `John Mack Vay, and Paul mun row, are fucking cunts. An investigation was carried out by the authorities, and the fucking cuntishness of John Mack Vay and Paul mun row, was scientifically established beyond all doubt. Just to reiterate: John Mack Vay and Paul mun row, are fucking cunts.`
     );
     // speakingComputer(
     //     `Please state your destination. You can say - "reset" - at any time, to start over.`
