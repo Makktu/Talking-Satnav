@@ -12,9 +12,7 @@ const userName = 'Dee';
 const testBtn = document.getElementById('test-btn');
 
 testBtn.addEventListener('click', () => {
-    speakingComputer(
-        `Testing, testing. One, two, three.`
-    );
+    speakingComputer(`One, two, buckle, my, shoe.`);
     // speakingComputer(
     //     `Please state your destination. You can say - "reset" - at any time, to start over.`
     // );
