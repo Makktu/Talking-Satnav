@@ -12,7 +12,7 @@ const userName = 'Dee';
 const testBtn = document.getElementById('test-btn');
 
 testBtn.addEventListener('click', () => {
-    speakingComputer(`One, two, buckle, my, shoe.`);
+    speakingComputer(`Hello, John Mack Vay`);
     // speakingComputer(
     //     `Please state your destination. You can say - "reset" - at any time, to start over.`
     // );
